@@ -25,7 +25,7 @@ const BookingModal = ({treatment,date,setTreatment, refetch}) => {
             phone: event.target.phone.value
 }
 
-            fetch('http://localhost:5000/booking',{
+            fetch('https://sleepy-everglades-76683.herokuapp.com/booking',{
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
